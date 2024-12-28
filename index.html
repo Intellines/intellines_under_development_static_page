@@ -20,30 +20,43 @@
 
         .container {
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
-        h1 {
+        .logo {
+            width: 500px;
+            /* width: auto; */
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        /* h1 {
             margin: 0;
             font-size: 3em;
-        }
+            font-family: 'Futura';
+        } */
 
         .blue-line {
-            width: 8em;
+            width: 20em;
             height: 2px;
-            background-color: blue;
+            background-color: #0076BA;
             margin: 10px auto 0;
         }
 
         p {
             font-size: 1.5em;
+            font-family: 'Futura';
             margin: 20px 0 0;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Intellines</h1>
-        <div class="blue-line"></div>
+        <img src="logo.png" alt="Logo" class="logo">
+        <!-- <h1>Intellines</h1> -->
+        <!-- <div class="blue-line"></div> -->
         <p>Website is under development...</p>
     </div>
 </body>
